@@ -33,7 +33,7 @@ public class HomePageTestCase extends TestBase{
 
 	@AfterMethod
 	public void teardown() {
-		driver.quit();
+		//driver.quit();
 	}
 	@Test(priority=1)
 	public void verifyUserTest() throws IOException {
